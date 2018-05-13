@@ -17,6 +17,12 @@ $ docker build -t opensprinkler .
 > This requires a version of Docker that supports multi-stage builds (i.e., version >= 17.06).
 > The container is built for the armhf architecture.
 
+## Getting the pre-build container from Docker Hub
+
+```
+docker pull johnstrunk/opensprinkler-rpi
+```
+
 ## Running the container
 
 Once the container is built, it can be started via:
